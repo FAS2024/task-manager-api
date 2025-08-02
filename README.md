@@ -8,6 +8,7 @@ A simple RESTful API built with Express and TypeScript for managing tasks.
 * Filter by status (e.g., `GET /tasks?status=completed`)
 * Pagination support (e.g., `GET /tasks?page=1&limit=10`)
 * Logger middleware for tracking requests
+* Fully tested using Postman
 
 ## Endpoints
 
@@ -100,6 +101,18 @@ task-manager-api/
 ├── README.md
 ```
 
+## API Testing
+
+All endpoints have been thoroughly tested using Postman. The following CRUD operations were verified:
+
+* `POST /tasks` – Create task
+* `GET /tasks` – Retrieve all tasks (with pagination and filters)
+* `GET /tasks/:id` – Retrieve specific task
+* `PUT /tasks/:id` – Update task
+* `DELETE /tasks/:id` – Delete task
+
 ## Author
 
 SUNMONU Fatai Ayinla
+GitHub: [https://github.com/FAS2024/](https://github.com/FAS2024/)
+LinkedIn: [https://www.linkedin.com/in/fatai-sunmonu](https://www.linkedin.com/in/fatai-sunmonu)

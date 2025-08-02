@@ -1,5 +1,3 @@
-// src/app.ts
-
 import express from 'express';
 import { logger } from './middlewares/logger';
 import tasksRouter from './routes/tasks';

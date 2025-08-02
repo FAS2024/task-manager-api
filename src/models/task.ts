@@ -1,5 +1,3 @@
-// src/models/task.ts
-
 import { v4 as uuidv4 } from 'uuid';
 
 export type TaskStatus = 'pending' | 'in-progress' | 'completed';
